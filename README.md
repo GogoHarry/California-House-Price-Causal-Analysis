@@ -1,5 +1,5 @@
 # California-House-Price-Prediction
-![house](https://github.com/user-attachments/assets/a5905e36-7c37-4f14-9244-2dd3be7ca7fc)
+![house](https://github.com/user-attachments/assets/5fd68b6f-997c-4a61-a134-9bc469586716)
 
 ## Project Overview
 The Californian House Price Prediction project aims to build a regression model that accurately predicts house prices in California based on various demographic and geographical features. The analysis explores how factors such as median income, house age, and proximity to the ocean influence house prices across different regions in California.
@@ -11,7 +11,7 @@ The Californian House Price Prediction project aims to build a regression model 
 - [Data Exploration and Cleaning](#data-exploration-and-cleaning)
 - [Model Building](#model-building)
 - [Model Evaluation](#model-evaluation)
-- [Result](#result)
+- [Results](#results)
 - [Conclusion](#conclusion)
 - [License](#license)
 
@@ -132,7 +132,7 @@ The model's performance was evaluated using the following metrics:
 - Mean Squared Error (MSE): Indicates the average squared difference between observed and predicted values.
 - Residual analysis and multicollinearity diagnostics were also conducted to validate the model's assumptions and stability.
 
-## Result
+## Results
 
 The results of the Linear Regression model applied after the OLS steps are as follows:
 
