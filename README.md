@@ -11,6 +11,7 @@ The Californian House Price Prediction project aims to build a regression model 
 - [Data Exploration and Cleaning](#data-exploration-and-cleaning)
 - [Model Building](#model-building)
 - [Model Evaluation](#model-evaluation)
+- [Result](#result)
 - [Conclusion](#conclusion)
 - [License](#license)
 
@@ -130,6 +131,19 @@ The model's performance was evaluated using the following metrics:
 - F-statistic: Tests the overall significance of the model.
 - Mean Squared Error (MSE): Indicates the average squared difference between observed and predicted values.
 - Residual analysis and multicollinearity diagnostics were also conducted to validate the model's assumptions and stability.
+
+## Result
+
+The results of the Linear Regression model applied after the OLS steps are as follows:
+
+- **Mean Squared Error (MSE) on Test Set:** 3,529,059,611.57
+- **Root Mean Squared Error (RMSE) on Test Set:** 59,405.89
+
+- **Mean Squared Error (MSE):** The MSE represents the average squared difference between the actual house prices and the predicted house prices on the test set. A higher MSE value indicates that the model's predictions deviate significantly from the actual values, which in this case is approximately 3.53 billion.
+
+- **Root Mean Squared Error (RMSE):** The RMSE, which is the square root of the MSE, provides an error metric that is on the same scale as the target variable (house prices). An RMSE of approximately $59,405.89 suggests that, on average, the model's predictions are off by around $59,405 when predicting the house prices in the test set.
+
+These error values indicate the typical magnitude of prediction errors. Given the scale of house prices in the dataset, this error might be significant, implying that there could be room for model improvement or that the variability in house prices is challenging to capture with the current feature set and model.
 
 ## Conclusion
 The final model successfully predicts Californian house prices based on the selected features, explaining a significant portion of the variance in house prices. The insights from this model can be used to understand the factors driving property values and potentially guide investment and policy decisions in the real estate sector.
