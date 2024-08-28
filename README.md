@@ -1,4 +1,5 @@
 # California-House-Price-Prediction
+![house](https://github.com/user-attachments/assets/a5905e36-7c37-4f14-9244-2dd3be7ca7fc)
 
 ## Project Overview
 The Californian House Price Prediction project aims to build a regression model that accurately predicts house prices in California based on various demographic and geographical features. The analysis explores how factors such as median income, house age, and proximity to the ocean influence house prices across different regions in California.
